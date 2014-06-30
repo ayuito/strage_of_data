@@ -44,7 +44,7 @@
     imgName[19] = [NSString stringWithFormat:@"きり\n\n\n\n\nきりぎりす　鳴くや霜夜の　さむしろに\n衣かたしき　ひとりかも寝む"];
     imgName[20] = [NSString stringWithFormat:@"こぬ\n\n\n\n\nこぬ人を　まつほの浦の　夕なぎに\n焼くやもしほの　身もこがれつつ"];
     imgName[21] = [NSString stringWithFormat:@"この\n\n\n\n\nこのたびは　ぬさもとりあえず　手向山\n紅葉のにしき　神のまにまに"];
-    imgName[22] = [NSString stringWithFormat:@"こひ\n\n\n\n\n思ひわび　さてもいのちは　あるものを\n憂きにたへぬは　涙なりけり"];
+    imgName[22] = [NSString stringWithFormat:@"おも\n\n\n\n\n思ひわび　さてもいのちは　あるものを\n憂きにたへぬは　涙なりけり"];
     imgName[23] = [NSString stringWithFormat:@"これ\n\n\n\n\nこれやこの　行くも帰るも　別れては\n知るも知らぬも　逢う坂の関"];
     imgName[24] = [NSString stringWithFormat:@"しの\n\n\n\n\nしのぶれど　色に出でにけり　我が恋は\n物や思ふと　人の問うまで"];
     imgName[25] = [NSString stringWithFormat:@"しら\n\n\n\n\n白露に　風の吹きしく　秋の野は\nつらぬきとめぬ　玉ぞ散りける"];
@@ -127,6 +127,8 @@
 
     imgName[99] = [NSString stringWithFormat:@"わたのはら　や\n\n\n\n\nわたの原　八十島かけて　漕ぎ出でぬと\n人には告げよ　あまのつり舟"];
     
+    
+    //  21がおかしい!!
         }
 
 
