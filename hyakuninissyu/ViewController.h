@@ -19,7 +19,13 @@ int kimarizisu;
     IBOutlet UIImageView *ka_ten;
     IBOutlet UIImageView *tatami;
     IBOutlet UILabel *label;
+    
+    BOOL checked;
+    bool oboeta[100];
+    NSUserDefaults *strage_oboeta;
 }
+@property (weak, nonatomic) IBOutlet UIButton *CheckboxButton;
+- (IBAction)CheckBox:(id)sender;
 
 -(IBAction)hyouji;
 -(IBAction)hajimeru;

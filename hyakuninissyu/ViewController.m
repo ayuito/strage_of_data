@@ -16,6 +16,8 @@
 
 @implementation ViewController
 
+@synthesize CheckboxButton;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -44,7 +46,7 @@
     imgName[19] = [NSString stringWithFormat:@"きり\n\n\n\n\nきりぎりす　鳴くや霜夜の　さむしろに\n衣かたしき　ひとりかも寝む"];
     imgName[20] = [NSString stringWithFormat:@"こぬ\n\n\n\n\nこぬ人を　まつほの浦の　夕なぎに\n焼くやもしほの　身もこがれつつ"];
     imgName[21] = [NSString stringWithFormat:@"この\n\n\n\n\nこのたびは　ぬさもとりあえず　手向山\n紅葉のにしき　神のまにまに"];
-    imgName[22] = [NSString stringWithFormat:@"おも\n\n\n\n\n思ひわび　さてもいのちは　あるものを\n憂きにたへぬは　涙なりけり"];
+    imgName[22] = [NSString stringWithFormat:@"こひ\n\n\n\n\n恋すてふ　わが名はまだき　たちにけり\n人知れずこそ　思ひ初めしか"];
     imgName[23] = [NSString stringWithFormat:@"これ\n\n\n\n\nこれやこの　行くも帰るも　別れては\n知るも知らぬも　逢う坂の関"];
     imgName[24] = [NSString stringWithFormat:@"しの\n\n\n\n\nしのぶれど　色に出でにけり　我が恋は\n物や思ふと　人の問うまで"];
     imgName[25] = [NSString stringWithFormat:@"しら\n\n\n\n\n白露に　風の吹きしく　秋の野は\nつらぬきとめぬ　玉ぞ散りける"];
@@ -128,7 +130,10 @@
     imgName[99] = [NSString stringWithFormat:@"わたのはら　や\n\n\n\n\nわたの原　八十島かけて　漕ぎ出でぬと\n人には告げよ　あまのつり舟"];
     
     
-    //  21がおかしい!!
+    
+    
+    
+
         }
 
 
@@ -149,6 +154,7 @@
 }
 
 -(IBAction)hajimeru{
+    
     if (kimarizisu ==1){
         
     tatami.alpha = 1.0;
@@ -176,7 +182,30 @@
         textview.text = imgName[number +94];
         
     }
+    if (oboeta[number]==YES){
+        [CheckboxButton setImage:[UIImage imageNamed:@"チェックボックス１.png"] forState:UIControlStateNormal];
+    }else{
+        [CheckboxButton setImage:[UIImage imageNamed:@"チェックボックス２.png"] forState:UIControlStateNormal];
     }
+    }
+
+- (IBAction)CheckBox:(id)sender {
+    
+    if (!checked) {
+        [CheckboxButton setImage:[UIImage imageNamed:@"チェックボックス１.png"] forState:UIControlStateNormal];
+        
+        checked = YES;
+    }else if (checked) {
+        [CheckboxButton setImage:[UIImage imageNamed:@"チェックボックス２.png"] forState:UIControlStateNormal];
+        
+        checked = NO;
+    }
+    oboeta[number] = checked;
+    [strage_oboeta synchronize];
+    [strage_oboeta setBool:oboeta[number] forKey:@"oboeta"];//←たぶんここがおかしい
+
+    NSLog(@"%@",strage_oboeta);
+}
 
 -(IBAction)hyouji{
     ka_ten.alpha = 0.0;
@@ -186,6 +215,7 @@
     [self performSegueWithIdentifier:@"kimarijiViewController" sender:self];
 
 }
+
 
 // online用!!
 @end

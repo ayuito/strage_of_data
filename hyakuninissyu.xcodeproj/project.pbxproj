@@ -21,12 +21,13 @@
 		6D06349F18E1A29B002824B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D06348118E1A29A002824B8 /* UIKit.framework */; };
 		6D0634A718E1A29B002824B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D0634A518E1A29B002824B8 /* InfoPlist.strings */; };
 		6D0634A918E1A29B002824B8 /* hyakuninissyuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0634A818E1A29B002824B8 /* hyakuninissyuTests.m */; };
-		6D0634B318E1A492002824B8 /* wahuu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D0634B218E1A492002824B8 /* wahuu.jpg */; };
-		6D0634B518E1A721002824B8 /* sakura wahuu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0634B418E1A721002824B8 /* sakura wahuu.png */; };
-		6D36D3FD1903F09200ABE61C /* tatami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D36D3FC1903F09200ABE61C /* tatami.jpg */; };
-		6D36D3FF1903F19F00ABE61C /* certain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D36D3FE1903F19F00ABE61C /* certain.jpeg */; };
-		6D3A9FBC191E1C36001E23AA /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A9FBB191E1C36001E23AA /* secondViewController.m */; };
-		6D69CE301956FAF20084025E /* gosikimaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D69CE2F1956FAF20084025E /* gosikimaku.jpg */; };
+		6D12C50E19618BC70057DAF6 /* gosikimaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D12C50D19618BC70057DAF6 /* gosikimaku.jpg */; };
+		6D12C51019618C2E0057DAF6 /* certain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D12C50F19618C2E0057DAF6 /* certain.jpeg */; };
+		6D12C51219618C580057DAF6 /* tatami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D12C51119618C580057DAF6 /* tatami.jpg */; };
+		6D12C51419618C7C0057DAF6 /* sakura wahuu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D12C51319618C7C0057DAF6 /* sakura wahuu.png */; };
+		6D12F8D51965811D00DD1A69 /* newsecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D12F8D41965811D00DD1A69 /* newsecondViewController.m */; };
+		6D3904CE19682089009C9F40 /* チェックボックス１.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3904CC19682089009C9F40 /* チェックボックス１.png */; };
+		6D3904CF19682089009C9F40 /* チェックボックス２.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3904CD19682089009C9F40 /* チェックボックス２.png */; };
 		6D9A87761903A0E5003ADD19 /* kimarijiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9A87751903A0E5003ADD19 /* kimarijiViewController.m */; };
 		6DB3E8A6194731BC00B6B83C /* simonokuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3E8A5194731BC00B6B83C /* simonokuViewController.m */; };
 		6DD569D21959A69700F56255 /* simonoku secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD569D11959A69700F56255 /* simonoku secondViewController.m */; };
@@ -63,13 +64,14 @@
 		6D0634A418E1A29B002824B8 /* hyakuninissyuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hyakuninissyuTests-Info.plist"; sourceTree = "<group>"; };
 		6D0634A618E1A29B002824B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D0634A818E1A29B002824B8 /* hyakuninissyuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hyakuninissyuTests.m; sourceTree = "<group>"; };
-		6D0634B218E1A492002824B8 /* wahuu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wahuu.jpg; path = "../../画像/開発用/wahuu.jpg"; sourceTree = "<group>"; };
-		6D0634B418E1A721002824B8 /* sakura wahuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sakura wahuu.png"; path = "../../画像/開発用/sakura wahuu.png"; sourceTree = "<group>"; };
-		6D36D3FC1903F09200ABE61C /* tatami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tatami.jpg; path = "../../画像/その他/tatami.jpg"; sourceTree = "<group>"; };
-		6D36D3FE1903F19F00ABE61C /* certain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = certain.jpeg; path = "../../画像/その他/certain.jpeg"; sourceTree = "<group>"; };
-		6D3A9FBB191E1C36001E23AA /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
-		6D4AF8BA1949D00800027F70 /* secondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = secondViewController.h; path = ../../../.Trash/secondViewController.h; sourceTree = "<group>"; };
-		6D69CE2F1956FAF20084025E /* gosikimaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gosikimaku.jpg; path = "../../画像/開発用/gosikimaku.jpg"; sourceTree = "<group>"; };
+		6D12C50D19618BC70057DAF6 /* gosikimaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gosikimaku.jpg; sourceTree = "<group>"; };
+		6D12C50F19618C2E0057DAF6 /* certain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = certain.jpeg; sourceTree = "<group>"; };
+		6D12C51119618C580057DAF6 /* tatami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tatami.jpg; sourceTree = "<group>"; };
+		6D12C51319618C7C0057DAF6 /* sakura wahuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sakura wahuu.png"; sourceTree = "<group>"; };
+		6D12F8D31965811D00DD1A69 /* newsecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsecondViewController.h; sourceTree = "<group>"; };
+		6D12F8D41965811D00DD1A69 /* newsecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsecondViewController.m; sourceTree = "<group>"; };
+		6D3904CC19682089009C9F40 /* チェックボックス１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チェックボックス１.png"; sourceTree = "<group>"; };
+		6D3904CD19682089009C9F40 /* チェックボックス２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チェックボックス２.png"; sourceTree = "<group>"; };
 		6D9A87741903A0E5003ADD19 /* kimarijiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kimarijiViewController.h; sourceTree = "<group>"; };
 		6D9A87751903A0E5003ADD19 /* kimarijiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kimarijiViewController.m; sourceTree = "<group>"; };
 		6DB3E8A4194731BC00B6B83C /* simonokuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simonokuViewController.h; sourceTree = "<group>"; };
@@ -107,6 +109,10 @@
 		6D06347118E1A29A002824B8 = {
 			isa = PBXGroup;
 			children = (
+				6D12C51319618C7C0057DAF6 /* sakura wahuu.png */,
+				6D12C51119618C580057DAF6 /* tatami.jpg */,
+				6D12C50F19618C2E0057DAF6 /* certain.jpeg */,
+				6D12C50D19618BC70057DAF6 /* gosikimaku.jpg */,
 				6D06348318E1A29A002824B8 /* hyakuninissyu */,
 				6D0634A218E1A29B002824B8 /* hyakuninissyuTests */,
 				6D06347C18E1A29A002824B8 /* Frameworks */,
@@ -140,23 +146,20 @@
 				6D06348C18E1A29A002824B8 /* AppDelegate.h */,
 				6D06348D18E1A29A002824B8 /* AppDelegate.m */,
 				6D06348F18E1A29A002824B8 /* Main.storyboard */,
+				6D3904CC19682089009C9F40 /* チェックボックス１.png */,
+				6D3904CD19682089009C9F40 /* チェックボックス２.png */,
 				6DF25B83195AF58600E44A90 /* kousuViewController.h */,
 				6DF25B84195AF58600E44A90 /* kousuViewController.m */,
 				6DD569D01959A69700F56255 /* simonoku secondViewController.h */,
 				6DD569D11959A69700F56255 /* simonoku secondViewController.m */,
-				6D69CE2F1956FAF20084025E /* gosikimaku.jpg */,
-				6D36D3FE1903F19F00ABE61C /* certain.jpeg */,
-				6D36D3FC1903F09200ABE61C /* tatami.jpg */,
-				6D0634B418E1A721002824B8 /* sakura wahuu.png */,
-				6D0634B218E1A492002824B8 /* wahuu.jpg */,
 				6D06349218E1A29A002824B8 /* ViewController.h */,
 				6D06349318E1A29A002824B8 /* ViewController.m */,
+				6D12F8D31965811D00DD1A69 /* newsecondViewController.h */,
+				6D12F8D41965811D00DD1A69 /* newsecondViewController.m */,
 				6D06349518E1A29A002824B8 /* Images.xcassets */,
 				6D06348418E1A29A002824B8 /* Supporting Files */,
 				6D9A87741903A0E5003ADD19 /* kimarijiViewController.h */,
 				6D9A87751903A0E5003ADD19 /* kimarijiViewController.m */,
-				6D4AF8BA1949D00800027F70 /* secondViewController.h */,
-				6D3A9FBB191E1C36001E23AA /* secondViewController.m */,
 				6DB3E8A4194731BC00B6B83C /* simonokuViewController.h */,
 				6DB3E8A5194731BC00B6B83C /* simonokuViewController.m */,
 			);
@@ -268,14 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D0634B518E1A721002824B8 /* sakura wahuu.png in Resources */,
-				6D69CE301956FAF20084025E /* gosikimaku.jpg in Resources */,
+				6D12C51219618C580057DAF6 /* tatami.jpg in Resources */,
+				6D3904CF19682089009C9F40 /* チェックボックス２.png in Resources */,
+				6D12C50E19618BC70057DAF6 /* gosikimaku.jpg in Resources */,
 				6D06349618E1A29A002824B8 /* Images.xcassets in Resources */,
+				6D3904CE19682089009C9F40 /* チェックボックス１.png in Resources */,
 				6D06348818E1A29A002824B8 /* InfoPlist.strings in Resources */,
-				6D0634B318E1A492002824B8 /* wahuu.jpg in Resources */,
-				6D36D3FF1903F19F00ABE61C /* certain.jpeg in Resources */,
+				6D12C51419618C7C0057DAF6 /* sakura wahuu.png in Resources */,
 				6D06349118E1A29A002824B8 /* Main.storyboard in Resources */,
-				6D36D3FD1903F09200ABE61C /* tatami.jpg in Resources */,
+				6D12C51019618C2E0057DAF6 /* certain.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,9 +301,9 @@
 				6D9A87761903A0E5003ADD19 /* kimarijiViewController.m in Sources */,
 				6D06349418E1A29A002824B8 /* ViewController.m in Sources */,
 				6DD569D21959A69700F56255 /* simonoku secondViewController.m in Sources */,
+				6D12F8D51965811D00DD1A69 /* newsecondViewController.m in Sources */,
 				6DB3E8A6194731BC00B6B83C /* simonokuViewController.m in Sources */,
 				6D06348E18E1A29A002824B8 /* AppDelegate.m in Sources */,
-				6D3A9FBC191E1C36001E23AA /* secondViewController.m in Sources */,
 				6DF25B85195AF58600E44A90 /* kousuViewController.m in Sources */,
 				6D06348A18E1A29A002824B8 /* main.m in Sources */,
 			);

@@ -10,9 +10,13 @@
 
 @interface simonokuViewController ()
 
+
+
 @end
 
 @implementation simonokuViewController
+@synthesize Checkboxbutton3;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -154,11 +158,33 @@
 
 }
 
+
+
+- (IBAction)Checkbox3:(id)sender {
+    
+    if (!checked) {
+        
+        [Checkboxbutton3 setImage:[UIImage imageNamed:@"チェックボックス１.png"]forState:UIControlStateNormal];
+        
+        checked = YES;
+        
+        
+        
+    }else if (checked) {
+        
+        [Checkboxbutton3 setImage:[UIImage imageNamed:@"チェックボックス２.png"]forState:UIControlStateNormal];
+        
+        checked = NO;
+        
+    }
+
+}
+
 -(IBAction)hyouji2{
     ka_ten.alpha = 0.0;
 }
 
 -(IBAction)back2{
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self performSegueWithIdentifier:@"kimarijiViewController" sender:self];
 }
 @end

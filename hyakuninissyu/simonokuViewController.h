@@ -14,7 +14,14 @@ NSString *imgName[100];
 @interface simonokuViewController : UIViewController{
     IBOutlet UIImageView *ka_ten;
     IBOutlet UITextView *textview;
+    
+    BOOL checked;
 }
+@property (weak, nonatomic) IBOutlet UIButton *Checkboxbutton3;
+
+- (IBAction)Checkbox3:(id)sender;
+
+
 -(IBAction)hyouji2;
 -(IBAction)hajimeru2;
 -(IBAction)back2;

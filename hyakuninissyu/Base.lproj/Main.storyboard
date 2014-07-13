@@ -54,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PVT-ra-WT7" kind="modal" modalTransitionStyle="crossDissolve" id="Pad-df-6wQ"/>
+                                    <segue destination="PVT-ra-WT7" kind="modal" identifier="simonokuViewController" modalTransitionStyle="crossDissolve" id="tbE-3B-juf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTz-7S-pJk">
@@ -94,7 +94,7 @@
                                 </state>
                                 <connections>
                                     <action selector="back2" destination="PVT-ra-WT7" eventType="touchUpInside" id="nd0-Ol-Qdh"/>
-                                    <segue destination="vXZ-lx-hvc" kind="modal" identifier="kimarijiViewController" modalTransitionStyle="crossDissolve" id="dUf-eH-gMw"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" identifier="kimarijiViewController" modalTransitionStyle="crossDissolve" id="7nb-xf-fXz"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kju-sE-gFW">
@@ -131,17 +131,35 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3i0-zF-4Wn" kind="modal" modalTransitionStyle="crossDissolve" id="aYg-B5-tzh"/>
+                                    <segue destination="3i0-zF-4Wn" kind="modal" identifier="simonokusecondViewController" modalTransitionStyle="crossDissolve" id="Whh-Ik-hr6"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gosikimaku.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iJV-6K-z2t">
                                 <rect key="frame" x="12" y="92" width="295" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="覚えたらチェック" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdB-8j-GYa">
+                                <rect key="frame" x="208" y="525" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arM-Om-vz8">
+                                <rect key="frame" x="253" y="495" width="17" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="チェックボックス２.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Checkbox3:" destination="PVT-ra-WT7" eventType="touchUpInside" id="MFk-BR-D24"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.86405256340000003" green="0.85621213600000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="Checkboxbutton3" destination="arM-Om-vz8" id="SDY-Tp-5ae"/>
                         <outlet property="ka_ten" destination="iJV-6K-z2t" id="kCv-bb-kXp"/>
                         <outlet property="textview" destination="kju-sE-gFW" id="oq4-oa-Izw"/>
                     </connections>
@@ -187,7 +205,7 @@
                                 </state>
                                 <connections>
                                     <action selector="next" destination="3i0-zF-4Wn" eventType="touchUpInside" id="iT9-oJ-xoq"/>
-                                    <segue destination="PVT-ra-WT7" kind="modal" identifier="SimonokuViewController" modalTransitionStyle="crossDissolve" id="iJ7-86-fPn"/>
+                                    <segue destination="PVT-ra-WT7" kind="modal" identifier="simonokuViewController" modalTransitionStyle="crossDissolve" id="TOy-k9-viZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -297,10 +315,10 @@
             </objects>
             <point key="canvasLocation" x="654" y="-70"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Newsecond View Controller-->
         <scene sceneID="VEH-CQ-Lig">
             <objects>
-                <viewController id="CsW-9g-1MV" customClass="secondViewController" sceneMemberID="viewController">
+                <viewController id="CsW-9g-1MV" customClass="newsecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GCO-NU-SLN"/>
                         <viewControllerLayoutGuide type="bottom" id="Jvg-7n-kJb"/>
@@ -416,14 +434,32 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CsW-9g-1MV" kind="modal" identifier="secondViewController" modalTransitionStyle="crossDissolve" id="rL0-8X-W5m"/>
+                                    <segue destination="CsW-9g-1MV" kind="modal" identifier="newsecondViewController" modalTransitionStyle="crossDissolve" id="rL0-8X-W5m"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skH-eP-AiH">
+                                <rect key="frame" x="256" y="486" width="24" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="チェックボックス２.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CheckBox:" destination="Djr-G2-5P4" eventType="touchUpInside" id="TrO-2G-Lte"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="覚えたらチェック" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0X-lK-xe1">
+                                <rect key="frame" x="215" y="515" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.86405256335704261" green="0.8562121359531083" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="3h7-us-ZEo"/>
                     <connections>
+                        <outlet property="CheckboxButton" destination="skH-eP-AiH" id="wvy-RT-dcX"/>
                         <outlet property="label" destination="u0r-VA-P0r" id="6o8-Ii-TjA"/>
                         <outlet property="tatami" destination="bVV-5N-8zc" id="48w-CC-ph5"/>
                         <outlet property="textview" destination="5IJ-O1-TED" id="1cv-XI-vxL"/>
@@ -438,6 +474,7 @@
         <image name="gosikimaku.jpg" width="397" height="233"/>
         <image name="sakura wahuu.png" width="478" height="920"/>
         <image name="tatami.jpg" width="589" height="452"/>
+        <image name="チェックボックス２.png" width="14" height="15"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -445,9 +482,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="7nb-xf-fXz"/>
+        <segue reference="TOy-k9-viZ"/>
+        <segue reference="Cel-lc-Iem"/>
         <segue reference="rvZ-8N-sve"/>
-        <segue reference="xB5-aN-Qli"/>
-        <segue reference="gw4-M4-yd2"/>
-        <segue reference="Pad-df-6wQ"/>
     </inferredMetricsTieBreakers>
 </document>
